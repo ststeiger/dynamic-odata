@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamic.OData", "src\Dynamic.OData\Dynamic.OData.csproj", "{FE253246-8828-471A-9C04-B36417C08711}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamic.OData.Benchmarks", "benchmark\Dynamic.OData.Benchmarks\Dynamic.OData.Benchmarks.csproj", "{93FC819E-A6C5-4D18-BE06-EF0079C91291}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamic.OData.Samples", "samples\Dynamic.OData.Samples\Dynamic.OData.Samples.csproj", "{B6BF7D71-CE86-4EC2-BA27-A12F08ADA83F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDynamicOdata", "TestDynamicOdata\TestDynamicOdata.csproj", "{0FDCC71D-09C5-49CD-A545-2E8844B0BC89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B6BF7D71-CE86-4EC2-BA27-A12F08ADA83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6BF7D71-CE86-4EC2-BA27-A12F08ADA83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6BF7D71-CE86-4EC2-BA27-A12F08ADA83F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDCC71D-09C5-49CD-A545-2E8844B0BC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDCC71D-09C5-49CD-A545-2E8844B0BC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDCC71D-09C5-49CD-A545-2E8844B0BC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDCC71D-09C5-49CD-A545-2E8844B0BC89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
